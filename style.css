@@ -12,9 +12,9 @@
     font-size: 35px;
     text-align: center;}
     .pb{
-        color: rgb(214, 54, 54);
-        font-size: 1em;
-        line-height: 2em;
+        color: rgb(255, 255, 255);
+        font-size: 19px;
+        line-height: 1.4em;
        
     }
     .bhome{ 
@@ -24,7 +24,8 @@
         background-blend-mode: lighten;
         background-image: url(hbackground.jpg);}
 .h2{color:#0c0c0d;
-    font-weight: bolder;}
+    font-size: 23px;
+    }
 
 .wel{text-align: center;
     margin: 10px;
@@ -201,7 +202,7 @@ font-size: 20px;
 .benefits{
     text-align: center;
     font-size: 20px;
-    
+    background-color: #9393933e;
     margin-top : 15%;
     padding: 60px ;
     
