@@ -1,7 +1,10 @@
 #contact-title{
     text-align:center;
 }
-#body{background: #e1e3e8;
+#body{background: #ffffff;
+}
+.fe{
+    color: darkcyan;
 }
 
 .b{padding-left: 20px;
@@ -14,10 +17,11 @@
         line-height: 2em;
        
     }
-    .bhome{ background-attachment:fixed;
+    .bhome{ 
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        background-blend-mode: lighten;
         background-image: url(hbackground.jpg);}
 .h2{color:#0c0c0d;
     font-weight: bolder;}
@@ -42,7 +46,42 @@
     img{width: 100%;
     border-radius: 15px;}
 
+
+
+.h >a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px;
+    
+}
+
 @media screen and (min-width: 250px) and (max-width: 768px){
+    .service{color: rgb(13, 15, 15);
+    padding: 10px;
+text-align: center;}
+    .service-p{
+        color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+    .service-wrapper{
+        background-color: #9393933e;
+    }
+    .h{color: #0c0c0d;
+        font-size: 25px;
+   text-align: center;
+    margin: 20px;
+    width: 200px;
+    margin-left: 30%;
+    padding: 10px;
+    height: 50px;
+    background:rgba(108, 111, 112, 0.592) ;
+    transition: 0.25s;
+    color: rgb(255, 255, 255);
+    outline: none;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
     .nav-a{display: none;}
     .header{
         
@@ -247,10 +286,120 @@ font-family:Georgia, 'Times New Roman', Times, serif
         
 /*DESKTOP MEDIA QUERY*/
 @media screen and (min-width:769px) {
-    .header{
+    .h{color: #0c0c0d;
+        color: #0c0c0d;
+        font-size: 25px;
+   text-align: center;
+   margin: 20px;
+   margin-left: 40%;
+    padding: 10px;
+    height: 50px;
+    background:rgba(108, 111, 112, 0.592) ;
+   width: 300px;
+    transition: 0.25s;
+    color: rgb(255, 255, 255);
+    outline: none;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55); 
+        
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        background-color: rgba(6, 41, 63, 0.885);
+    }
+    .hamburger {
         display: none;
     }
-.nav-a{margin: 30px 10px 30px 10px;
+    
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #ffffff;
+    }
+    .nav-menu {
+        display: flex;
+        margin: 0px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-item {
+        margin-left: 5rem;
+    }
+    
+    .nav-link{
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #ffffff;
+        list-style: none;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+    }
+    
+    .nav-link:hover{
+        color: #be3f09;
+        
+    }
+    
+    .nav-logo {
+        font-size: 1.7rem;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+       background-color: #403b3b;
+        width: 0%;
+        border-radius: 10px;
+        text-align: left;
+        transition: 0.3s;
+      
+       
+    }
+
+    .nav-menu.active {
+        left: 0;
+        width: 100%;
+      
+        
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+        
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    /* .header{
+        display: none;
+    }
+.nav-a{
+    margin: 30px 10px 30px 10px;
 }
 .hambuger{display: none;}
 .nav{
@@ -275,7 +424,7 @@ font-family:Georgia, 'Times New Roman', Times, serif
 a:hover{
     color: wheat;
     cursor: pointer;
-}
+} */
 
     .home{
         display: grid;
