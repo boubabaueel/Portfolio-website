@@ -9,7 +9,7 @@
 .footer{
     background-color:#f1f6f2e2 ;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 50%;
 }
 .foot{
 font-size: 12px;
@@ -539,8 +539,9 @@ font-weight: bold;
     .footer{
         background-color:#f1f6f2e2 ;
         padding: 10px;
-        margin-top: 10px;
-     display: flex;
+        margin-top: 50%;
+     
+     
     }
     .foot{
     font-size: 12px;
