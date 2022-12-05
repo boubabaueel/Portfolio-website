@@ -6,6 +6,15 @@
 .fe{
     color: darkcyan;
 }
+.footer{
+    background-color:#f1f6f2e2 ;
+    padding: 10px;
+    margin-top: 10px;
+}
+.foot{
+font-size: 12px;
+text-align: center;
+}
 .ka{color: darkcyan;}
 .b{padding-left: 20px;
     color:darkcyan;
@@ -527,5 +536,15 @@ font-weight: bold;
         
     
     }
-
+    .footer{
+        background-color:#f1f6f2e2 ;
+        padding: 10px;
+        margin-top: 10px;
+     display: flex;
+    }
+    .foot{
+    font-size: 12px;
+    text-align: center;
+   
+    }
 }
